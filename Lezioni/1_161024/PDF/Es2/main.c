@@ -9,6 +9,6 @@ int main(void){
 
     gradiFahrenheit = gradiCelsius * 1.8 + 32;
 
-    printf("Gradi: %f °F.\n",gradiFahrenheit);
+    printf("Gradi fahrenheit: %f °F.\n",gradiFahrenheit);
     return 0;
 }
