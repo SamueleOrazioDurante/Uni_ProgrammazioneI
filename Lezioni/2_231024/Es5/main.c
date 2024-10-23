@@ -12,13 +12,13 @@ int main(void){
     float peso,altezza,BMI;
 
     do{
-        printf("Inserisci il peso: ");
+        printf("Inserisci il peso (in kg): ");
         scanf("%f",&peso);
 
     }while(peso<0);
     
     do{
-        printf("Inserisci l'altezza: ");
+        printf("Inserisci l'altezza (in m): ");
         scanf("%f",&altezza);
 
     }while(altezza<0);
