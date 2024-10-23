@@ -21,7 +21,7 @@ int main(void){
         secondi = secondi%60;
     }
 
-    printf("Durante dell'esperimento di %d minuto/i e %d secondo/i \n",minuti,secondi);
+    printf("Durata dell'esperimento di %d minuto/i e %d secondo/i \n",minuti,secondi);
 
     return 0;
 }
