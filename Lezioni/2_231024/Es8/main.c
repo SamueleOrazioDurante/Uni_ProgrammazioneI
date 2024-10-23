@@ -13,7 +13,7 @@ int main(void){
     printf("Inserisci un numero qualsiasi (intero es. 1,5,3,... ): ");
     scanf("%d",&numero);
 
-    if(numero%2==1){
+    if(numero%2==1 || numero%2==-1){
         printf("Numero dispari\n");
     }else{
         printf("Numero pari\n");
