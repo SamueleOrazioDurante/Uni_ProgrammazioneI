@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+struct time{
+    int ora;
+    int minuti;
+    int secondi;
+};
+
+int main(void) {
+
+    // nessun controllo richiesto
+
+    struct time tempo1,tempo2;
+
+    int temp_ora,temp_minuti,temp_secondi;
+    int differenza_ora,differenza_minuti,differenza_secondi;
+
+    // printf("Inserire il primo istante di tempo (ora minuti secondi): ");
+    scanf("%i", &temp_ora);
+    scanf("%i", &temp_minuti);
+    scanf("%i", &temp_secondi);
+
+    tempo1.ora = temp_ora;
+    tempo1.minuti = temp_minuti;
+    tempo1.secondi = temp_secondi;
+
+    // printf("Inserire il secondo istante di tempo (ora minuti secondi): ");
+    scanf("%i", &temp_ora);
+    scanf("%i", &temp_minuti);
+    scanf("%i", &temp_secondi);
+
+    tempo2.ora = temp_ora;
+    tempo2.minuti = temp_minuti;
+    tempo2.secondi = temp_secondi;
+
+    // calcolo differenza tra i due tempi
+
+    differenza_ora = tempo2.ora - tempo1.ora;
+    differenza_minuti = tempo2.minuti - tempo1.minuti; 
+    differenza_secondi = tempo2.secondi - tempo1.secondi;
+
+    //printf("La differenza tra i due tempi è di: ");
+    printf("%i %i %i\n", differenza_ora,differenza_minuti,differenza_secondi);
+    
+
+    return 0;
+}

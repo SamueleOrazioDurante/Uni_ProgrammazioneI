@@ -2,3 +2,5 @@ gedit NOME_FILE.c & (ritorna il controllo alla shell)
 
 gcc NOME_FILE.c (crea un file a.out da eseguire con ./a.out)
 gcc NOME_FILE.c -o NOME_A_SCELTA (per chiamarlo come se vuole)
+
+usare tag -Wall per vedere anche tutti i warning (che contano come errore in sede di esame)
